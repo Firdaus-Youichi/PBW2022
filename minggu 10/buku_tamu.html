@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Belajar Menggunakan HTML Element Tag INPUT</title>
+    </head>
+    <body>
+        <h2>Formulir Pendaftaran Mahasiswa</h2>
+        <form action="#" method="Post">
+            <p>
+                <label for="nama">Nama Lengkap :</label><br>
+                <input type="text" name="nama" id="nama" required autocomplete
+                minlength="3" size="60">
+            </p>
+            <p>
+                <label for="gender">Jenis Kelamin:</label><br>
+                <input type="radio" name="gender" value="laki-laki" checked> Laki-laki
+                <input type="radio" name="gender" value="perempuan"> Perempuan
+            </p>
+            <p>
+                <label for="alamat">Alamat Tinggal :</label><br>
+                <input type="text" name="alamat" id="alamat" required autocomplete
+                minlength="3" size="60">
+            </p>
+            <p>
+                <label for="email">Email :</label><br>
+                <input type="text" name="email" id="email" required autocomplete
+                minlength="3" size="60">
+            </p>
+            <p>
+                <label for="sosmed">Aktif Pada Sosial Media :</label><br>
+                <input type="checkbox" name="sosmed_1" Value="Facebook"> Facebook
+                <input type="checkbox" name="sosmed_2" Value="Twitter"> Twitter
+                <input type="checkbox" name="sosmed_3" Value="Instagram"> Instagram
+                <input type="checkbox" name="sosmed_4" Value="Path"> Path
+            </p>
+            <p>
+                <label> Mengetahui Web Ini Dari: </label><br>
+                <select name="web">
+                    <option selected="select">-= Pilih =-</option>
+                    <option value="WA"> WA</option>
+                    <option value="Teman"> Teman</option>
+                    <option value="Koran"> Koran</option>
+                    <option value="Poster"> Poster</option>
+                    <option value="Iklan TV"> Iklan TV</option>
+                </select>
+            </p>
+            <p>
+                <label for="pesan">Pesan :</label><br>
+                <input type="text" name="pesan" id="pesan" required autocomplete
+                minlength="3" size="60">
+            </p>
+            <p>
+                <input type="submit" value="Kirim">
+                <input type="reset" value="Batal">
+            </p>
+        </form>
+    </body>
+</html>
